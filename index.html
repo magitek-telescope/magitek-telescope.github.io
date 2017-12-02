@@ -107,7 +107,7 @@ dd a {
       <li v-for="repo in repos">
         <dl>
           <dt>{{repo.full_name}}</dt>
-          <dd><a :href="repo.url">{{repo.url}}</a></dd>
+          <dd><a :href="repo.html_url">{{repo.html_url}}</a></dd>
         </dl>
       </li>
     </ul>
